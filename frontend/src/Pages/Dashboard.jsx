@@ -55,7 +55,7 @@ export default function Dashboard() {
     // ---------- Recent Transactions ----------
     const enrichedTransactions = payments
       .map(p => {
-        const student = students.find(s => s.id === p.studentId);
+        const student = students.find(s => s.id === p.id);
         return {
           id: p.id,
           name: student?.name || "Unknown",
