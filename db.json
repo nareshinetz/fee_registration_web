@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "ADMIN"
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "class": "10-A",
+      "totalFee": 50000
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "class": "10-B",
+      "totalFee": 45000
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "class": "9-A",
+      "totalFee": 60000
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "class": "9-B",
+      "totalFee": 55000
+    },
+    {
+      "id": 5,
+      "name": "Rahul Kumar",
+      "class": "8-A",
+      "totalFee": 40000
+    }
+  ],
+
+  "payments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "amount": 20000,
+      "status": "paid",
+      "date": "2026-01-30",
+      "mode": "CASH"
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "amount": 30000,
+      "status": "paid",
+      "date": "2026-01-30",
+      "mode": "CASH"
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "amount": 18000,
+      "status": "paid",
+      "date": "2026-01-29",
+      "mode": "CASH"
+    },
+    {
+      "id": 4,
+      "studentId": 1,
+      "amount": 10000,
+      "status": "paid",
+      "date": "2026-01-28",
+      "mode": "CASH"
+    }
+  ]
+}
